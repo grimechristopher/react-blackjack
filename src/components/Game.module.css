@@ -1,0 +1,46 @@
+.gameContainer {
+    max-width: 40em;
+    margin: 0 auto;
+    text-align: center;
+}
+.inputRow {
+    width: 60%;
+    display: inline-block;
+}
+.inputRow > label {
+    width: 55%;
+    float: left;
+    text-align: right;
+}
+.inputRow > input {
+    width: 40%;
+    float: right;
+}
+.dealersHand {
+    display: flex;
+    justify-content: center;
+}
+.handContainer {
+    display: flex;
+    justify-content: center;
+    max-width:180px;
+    flex-wrap: wrap;
+}
+.playersContainer {
+    display: flex;
+    justify-content: space-around;
+    padding:0 0.3em;
+    
+}
+.playingCard {
+    border: 1px solid black;
+    height: 100px;
+    width: 60px;
+    border-radius: 7%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+button {
+    margin: 0.3em;
+}
